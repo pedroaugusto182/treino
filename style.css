@@ -1,0 +1,84 @@
+body { background-color: beige; }
+
+ul, 
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 { margin: 0; }
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.home { text-indent: 30px; }
+
+.home,
+footer {
+    font-family: fantasy; 
+    background-color: darkorange;
+    color: brown;
+}
+
+.navegador {
+    background: #ffd890;
+    height: 60px;
+    font-size: 25px;
+}
+
+.navegador ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navegador ul li {
+    display: inline-block;
+}
+
+.navegador ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navegador ul li a:hover {
+    opacity: .7;
+}
+
+.content {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.titulo.receita {
+    font-family: fantasy; 
+    background-color: darkorange;
+    color: brown;
+}
+
+.texto {
+    text-align: center
+    width:659px;
+    border-top:10px solid #6633;
+    border-bottom:1px solid #CC6633;
+    margin-top: 0px;
+    font-style: italic;
+    width:600px;
+    background-color:rgb(255,255,255)
+        
+}
+
+.texto h1 {
+    font-family: 'Pacifico', cursive;
+    background-color: darkorange;
+    color: brown;
+    margin-top: 0;    
+}
+
+.descricao { padding: 0 15px 30px; }
